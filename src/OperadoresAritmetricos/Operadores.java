@@ -15,5 +15,14 @@ public class Operadores {
         int x = 4;
         x += 2;
         System.out.println("x = " + x);
+
+        double resp = Math.sqrt(25);
+        double pi = Math.PI;
+        double pow = Math.pow(resp,2);
+        double cubico = Math.cbrt(27);
+        System.out.println("cubico = " + cubico);
+        System.out.println("pow = " + pow);
+        System.out.println("pi = " + pi);
+        System.out.println("resp = " + resp);
     }
 }
