@@ -34,6 +34,7 @@ public class Operadores {
         System.out.println("ar3 = " + ar3);
 
         double ale = Math.random();
-        System.out.println("ale = " + ale);
+        int n = (int) (5 + ale * (10-5));
+        System.out.println(n);
     }
 }
