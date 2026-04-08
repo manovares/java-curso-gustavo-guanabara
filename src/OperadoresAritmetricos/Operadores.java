@@ -8,7 +8,12 @@ public class Operadores {
         System.out.println("media = " + media);
 
         int numero = 5;
-        numero++;
+        int valor = 4 + ++numero;
+        System.out.println("valor = " + valor);
         System.out.println("numero = " + numero);
+
+        int x = 4;
+        x += 2;
+        System.out.println("x = " + x);
     }
 }
