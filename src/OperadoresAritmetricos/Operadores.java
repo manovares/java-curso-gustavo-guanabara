@@ -24,5 +24,16 @@ public class Operadores {
         System.out.println("pow = " + pow);
         System.out.println("pi = " + pi);
         System.out.println("resp = " + resp);
+
+        float y = 8.3f;
+        int ar = (int) Math.floor(y);
+        System.out.println("ar = " + ar);
+        int ar2 = (int) Math.ceil(y);
+        System.out.println("ar2 = " + ar2);
+        int ar3 = (int) Math.round(y);
+        System.out.println("ar3 = " + ar3);
+
+        double ale = Math.random();
+        System.out.println("ale = " + ale);
     }
 }
